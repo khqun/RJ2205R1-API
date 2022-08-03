@@ -20,6 +20,8 @@ export default function CreateToDo() {
             }
         ).catch(err => {
             console.log(err);
+        }).finally(()=>{
+            setTodoTask('')
         })
     }
     return (

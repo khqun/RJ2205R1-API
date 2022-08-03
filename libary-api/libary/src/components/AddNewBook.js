@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from "axios";
-import 'bootstrap/dist/css/bootstrap.min.css';
 export default function AddNewBook() {
     const navigate = useNavigate()
     const [title, setTitle] = useState()
