@@ -79,7 +79,7 @@ export default function CreateNewContact() {
         <div className="container">
             <div>
                 <div className="header">
-                    <h1>Add a new book</h1>
+                    <h1>Add new contact</h1>
                 </div>
                 <div>
                     <form onSubmit={handleOnSubmit}>
